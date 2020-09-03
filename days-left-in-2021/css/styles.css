@@ -1,0 +1,122 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+  background-image: url(../images/background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat no-repeat;
+  color: #393b44;
+}
+
+/* === Typography === */
+
+.strong {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.new-year {
+  font-size: 3rem;
+}
+
+.small-text {
+  font-size: 1.5rem;
+}
+
+.days-left {
+  font-size: 4rem;
+}
+
+.next-line {
+  display: block;
+}
+
+.clock-text {
+  font-size: 5rem;
+}
+
+.clock-info {
+  display: block;
+  font-size: 1rem;
+}
+
+@media (max-width: 720px) {
+  .new-year {
+    font-size: 2.5rem;
+  }
+
+  .small-text {
+    font-size: 1rem;
+  }
+
+  .days-left {
+    font-size: 3.5rem;
+  }
+
+  .clock-text {
+    font-size: 3rem;
+  }
+
+  .clock-info {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .new-year {
+    font-size: 1.5rem;
+  }
+
+  .small-text {
+    font-size: 1rem;
+  }
+
+  .days-left {
+    font-size: 2.5rem;
+  }
+
+  .clock-text {
+    font-size: 2rem;
+  }
+
+  .clock-info {
+    font-size: 0.5rem;
+  }
+}
+
+/* containers */
+
+.main-container {
+  display: flex;
+  max-width: 65%;
+  flex-direction: column;
+  align-items: center;
+  margin: 5em;
+  text-align: center;
+  border: aquamarine 3px solid;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.countdown-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (min-width: 1200px) {
+  .countdown-container {
+    max-width: 65%;
+  }
+}
+
+.countdown-ele {
+  text-align: center;
+}

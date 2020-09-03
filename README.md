@@ -1,4 +1,3 @@
 # JavaScript Projects
 
-## 1. Countdown Timer
-      
+## 1. Days-in-2021
