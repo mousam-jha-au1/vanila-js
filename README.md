@@ -1,3 +1,3 @@
 # JavaScript Projects
 
-## 1. Days-in-2021
+## 1. Days-left-for-2021
