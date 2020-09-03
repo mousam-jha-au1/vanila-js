@@ -1,2 +1,1 @@
-# vanila-js
-JavaScript Projects
+# JavaScript Projects
