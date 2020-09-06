@@ -120,6 +120,8 @@ body {
 @media (min-width: 1200px) {
   .countdown-container {
     max-width: 65%;
+    margin: 0 auto;
+    margin-top: 3.5em;
   }
 }
 
