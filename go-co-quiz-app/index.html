@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+
     <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap"
@@ -13,7 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>Quiz App</title>
+    <title>GoCo Quiz App</title>
   </head>
   <body>
     <div class="quiz-container">
@@ -23,20 +26,20 @@
         <div class="options-container">
           <ul>
             <li>
-              <input type="radio" name="option" value="a" class="options" />
-              Option A
+              <input type="radio" name="option" id="a" class="options" />
+              <label for="a" id="a_opt">Option A</label>
             </li>
             <li>
-              <input type="radio" name="option" value="b" class="options" />
-              Option B
+              <input type="radio" name="option" class="options" id="b" />
+              <label for="b" id="b_opt">Option B</label>
             </li>
             <li>
-              <input type="radio" name="option" value="c" class="options" />
-              Option C
+              <input type="radio" name="option" class="options" id="c" />
+              <label for="c" id="c_opt">Option C</label>
             </li>
             <li>
-              <input type="radio" name="option" value="d" class="options" />
-              Option D
+              <input type="radio" name="option" class="options" id="d" />
+              <label for="d" id="d_opt">Option D</label>
             </li>
           </ul>
         </div>
