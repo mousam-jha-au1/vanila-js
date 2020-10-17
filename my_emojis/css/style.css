@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo+2", sans-serif;
+  font-size: 16px;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  color: #363636;
+  height: 92vh;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-title {
+  margin-top: 1.5em;
+  font-family: "Sansita Swashed";
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.emoji-container {
+  width: 500px;
+  height: 300px;
+  max-width: 90%;
+  margin: 3em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 5rem;
+  padding: 0.3em;
+}
+
+.emoji-input {
+  color: #363636;
+  width: 300px;
+  max-width: 90%;
+  padding: 0.6em 2em;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+}
+
+.copy-emoji {
+  margin-bottom: 3em;
+}
+
+.emoji-input:focus {
+  outline: none;
+  background-color: oldlace;
+}
+
+.buttons-container {
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container-title {
+  margin-bottom: 0.7em;
+  font-weight: 900;
+  color: #555555;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 150px;
+  background: #d6e0f0;
+  margin: 0 1em;
+}
+
+.btn {
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0.5em;
+  padding: 0.8em 2em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #eee;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-image: linear-gradient(
+    to right,
+    #4cb8c4 0%,
+    #3cd3ad 51%,
+    #4cb8c4 100%
+  );
+}
+
+.btn-add:hover,
+.btn-add:focus {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+.btn-remove {
+  background-image: linear-gradient(
+    to right,
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+}
+.btn-remove:hover,
+.btn-remove:focus {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.copy-emoji p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  .emoji {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) and (min-width: 300px) {
+  .buttons-container {
+    flex-direction: column;
+  }
+
+  .btn-container {
+    margin-bottom: 1.5em;
+  }
+  .emoji-container {
+    height: 150px;
+  }
+  .emoji {
+    font-size: 3rem;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+}
