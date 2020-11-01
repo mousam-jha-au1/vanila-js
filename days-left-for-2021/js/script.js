@@ -5,6 +5,7 @@ const daysCounter = document.querySelector(".count-days");
 const hoursCounter = document.querySelector(".count-hours");
 const minutesCounter = document.querySelector(".count-minutes");
 const secondsCounter = document.querySelector(".count-seconds");
+const backgroundImage = document.querySelector(".background-img");
 
 // countdown function
 function countdown() {
@@ -84,3 +85,8 @@ function daySuffix(day) {
 
 countdown();
 setInterval(countdown, 1000);
+
+setTimeout(() => {
+  backgroundImage.src =
+    "https://images.unsplash.com/photo-1568070499278-cfa856bede44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
+}, 1000);
