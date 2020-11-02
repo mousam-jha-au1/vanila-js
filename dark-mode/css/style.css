@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.read-mode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 0 3em;
+}
+.mode-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.mode {
+  padding: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 10px 30px rgba(187, 191, 202, 0.01),
+    -10px -10px 30px rgba(187, 191, 202, 0.09);
+}
+
+.mode img {
+  max-width: 40px;
+}
+
+.code img {
+  margin-top: 5em;
+  max-width: 100%;
+  object-fit: cover;
+}
+.mode:hover {
+  background-color: #d2f5e3;
+}
+.dark {
+  background-color: #282c34;
+  color: #eeeeee;
+}
+
+.light {
+  background-color: #fafafa;
+  color: #373a40;
+}
+
+.solarized {
+  background-color: #fdf6e3;
+  color: #073642;
+}
